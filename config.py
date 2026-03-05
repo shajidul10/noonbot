@@ -14,7 +14,7 @@ FORCE_SUBSCRIBE_CHANNEL = os.getenv("FORCE_SUBSCRIBE_CHANNEL", "@hgghhhcvvb")
 FORCE_SUBSCRIBE_CHANNEL_ID = int(os.getenv("FORCE_SUBSCRIBE_CHANNEL_ID", "-1003868032769"))
 
 # Database
-MONGODB_URI = os.getenv("MONGODB_URI", "mongodb+srv://alimulislam12344_db_user:1253Gz047Y3nqUpU@cluster0.guyno9t.mongodb.net/reporting_bot?retryWrites=true&w=majority")
+MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://alimulislam12344_db_user:1253Gz047Y3nqUpU@ac-2esgexx-shard-00-00.guyno9t.mongodb.net:27017,ac-2esgexx-shard-00-01.guyno9t.mongodb.net:27017,ac-2esgexx-shard-00-02.guyno9t.mongodb.net:27017/reporting_bot?ssl=true&replicaSet=atlas-abc123-shard-0&authSource=admin&retryWrites=true&w=majority")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "reporting_bot")
 
 # TDLib Settings
