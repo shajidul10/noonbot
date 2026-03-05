@@ -7,7 +7,7 @@ import os
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8628766022:AAErYAWAnhA-c-Iu9yKLUZ-mgl0GxXXW4OI")
 
 # Owner ID (Your Telegram User ID)
-OWNER_ID = int(os.getenv("OWNER_ID", "8444706831"))
+OWNER_ID = int(os.getenv("OWNER_ID", "7888661523"))
 
 # Force Subscribe Channel/Group
 FORCE_SUBSCRIBE_CHANNEL = os.getenv("FORCE_SUBSCRIBE_CHANNEL", "@hgghhhcvvb")
